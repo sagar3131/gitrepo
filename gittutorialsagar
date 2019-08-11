@@ -1,0 +1,131 @@
+    1  yum update java
+    2  ll
+    3  java -version
+    4  yum install git
+    5  git --version
+    6  ll
+    7  exit
+    8  cd Downloads/
+    9  ll
+   10  ip r l
+   11  scp -r server@192.168.8.128/home/server/Downloads/apache-tomcat-9.0.22.tar.gz .
+   12  scp -r server@192.168.8.128:/home/server/Downloads/apache-tomcat-9.0.22.tar.gz .
+   13  kk'
+   14  ll
+   15  ll
+   16  su
+   17  su server
+   18  exit
+   19  yum install git-client
+   20  kill -9 3980
+   21  yum install git-client
+   22  yum install git client
+   23  pwd
+   24  cd ..
+   25  mkdir .ssh
+   26  ll
+   27  ls -al
+   28  cd .ssh/
+   29  ssh-keygen -t rsa
+   30  ll
+   31  ls -al
+   32  ssh-keygen -t rsa
+   33  ll
+   34  ls -al
+   35  cd ..
+   36  ll
+   37  cd workstation/
+   38  ll
+   39  cd git_practical/
+   40  ll
+   41  git clone http://192.168.122.1:8080/gitblit-1.8.0/r/repo.git
+   42  cd
+   43  ll
+   44  cd
+   45  ll
+   46  cd /
+   47  ll
+   48  cd home/
+   49  ll
+   50  git --version 
+   51  cat /etc/gitconfig
+   52  git config --global branch.autosetuperbase always
+   53  git  config --global color.ui true
+   54  git  config --global color.status auto 
+   55  git  config --global color.branch auto 
+   56  git  config --global core.editor vim
+   57  git  config --global merge.tool vimdiff
+   58  git config --list 
+   59  groupadd dev
+   60  useradd -G dev -d /home/client -m -s /bin/bash client
+   61  ll
+   62  man ls
+   63  chgrp dev client/
+   64  ll
+   65  pwd
+   66  cd client/
+   67  pwd
+   68  ssh-keygen 
+   69  ll
+   70  ls -al
+   71  cat .gitconfig 
+   72  ssh-copy-id ~/.ssh/id_rsa.pub https://github.com/sagar3131/gitrepo.git
+   73  ssh-copy-id ~/.ssh/id_rsa.pub https://github.com/sagar3131
+   74  ssh-copy-id ~/.ssh/id_rsa.pub https://github.com
+   75  ssh-copy-id ~/.ssh/id_rsa.pub patilsagar3131@https://github.com
+   76  ll
+   77  cd workstation/
+   78  ll
+   79  cd git_practical/
+   80  ll
+   81  cd ..
+   82  ll
+   83  mkdir gitclient
+   84  cd gitclient/
+   85  git init
+   86  echo 'TODO:Add coontent for README'>README
+   87  ll
+   88  git status 
+   89  git add.
+   90  git add .
+   91  git status -s
+   92  git commit -m 'initial commit'
+   93  git config --global user.name 'client'
+   94  git config --global user.email client@gmail.com
+   95  ll
+   96  git log 
+   97  git remote add origin http://192.168.122.1:8080/gitblit-1.8.0/r/repo.git
+   98  git push origin master 
+   99  git remote add origin https://github.com/sagar3131/gitrepo.git
+  100  git remote -v
+  101  gir remote rm destination
+  102  git remote set-url https://github.com/sagar3131/gitrepo.git
+  103  git remote set-url origin https://github.com/sagar3131/gitrepo.git
+  104  git push origin master 
+  105  git remote set-url origin https://github.com/sagar3131/gitrepo.git
+  106  git remote -v
+  107  git push origin master 
+  108  ping 8.8.8.8
+  109  git push origin master 
+  110  ll
+  111  touch file1
+  112  echo 'hello user"> file1
+  113  echo hello user> file1 
+  114  git status -s
+  115  git add file1
+  116  git status -s
+  117  git commit -m 'adding new file'
+  118  git log
+  119  git push 
+  120  git pull
+  121  ll
+  122  less file1 
+  123  git pull master
+  124  git pull 
+  125  history 
+  126  git pull origin master 
+  127  ll
+  128  touch gittutorialsagar
+  129  vim gittutorialsagar 
+  130  history 
+  131  history > gittutorialsagar 
