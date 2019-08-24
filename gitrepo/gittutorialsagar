@@ -1,0 +1,50 @@
+    4  yum install git
+    5  git --version
+   12  scp -r server@192.168.8.128:/home/server/Downloads/apache-tomcat-9.0.22.tar.gz .
+   50  git --version 
+   51  cat /etc/gitconfig
+   52  git config --global branch.autosetuperbase always
+   53  git  config --global color.ui true
+   54  git  config --global color.status auto 
+   55  git  config --global color.branch auto 
+   56  git  config --global core.editor vim
+   57  git  config --global merge.tool vimdiff
+   58  git config --list 
+   83  mkdir gitclient
+   84  cd gitclient/
+   85  git init
+   86  echo 'TODO:Add coontent for README'>README
+   87  ll
+   88  git status 
+   89  git add.
+   90  git add .
+   91  git status -s
+   92  git commit -m 'initial commit'
+   93  git config --global user.name 'client'
+   94  git config --global user.email client@gmail.com
+   95  ll
+   96  git log 
+   97  git remote add origin http://192.168.122.1:8080/gitblit-1.8.0/r/repo.git
+   98  git push origin master 
+   99  git remote add origin https://github.com/sagar3131/gitrepo.git
+  100  git remote -v
+  101  gir remote rm destination
+  102  git remote set-url https://github.com/sagar3131/gitrepo.git
+  103  git remote set-url origin https://github.com/sagar3131/gitrepo.git
+  104  git push origin master 
+  105  git remote set-url origin https://github.com/sagar3131/gitrepo.git
+  106  git remote -v
+  107  git push origin master 
+  108  ping 8.8.8.8
+  109  git push origin master 
+  110  ll
+  111  touch file1
+  112  echo 'hello user"> file1
+  113  echo hello user> file1 
+  114  git status -s
+  115  git add file1
+  116  git status -s
+  117  git commit -m 'adding new file'
+  118  git log
+  119  git push 
+  120  git pull
